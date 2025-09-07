@@ -5,6 +5,8 @@ import Hero from './components/Hero/Hero.jsx'
 import Program from './components/programs/Program.jsx'
 import Title from './components/Title/Title.jsx'
 import About from './components/About/About.jsx'
+import Campus from './components/Campus/Campus.jsx'
+import Testimonials from './components/Testimonials/Testimonials.jsx'
 
 const App = () => {
   return (
@@ -16,6 +18,9 @@ const App = () => {
         <Program/>
         <About/>
         <Title subTitle="Gallery" title="Campus Photos"/>
+        <Campus/>
+        <Title subTitle="TESTIMONIALS" title="What Student Says"/>
+        <Testimonials/>
     </div>
     </div>
   )
