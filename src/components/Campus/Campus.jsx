@@ -4,8 +4,7 @@ import gallery_1 from '../../assets/program.jpg';
 import gallery_2 from '../../assets/program.jpg';
 import gallery_3 from '../../assets/program.jpg';
 import gallery_4 from '../../assets/program.jpg';
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import white_arrow from '../../assets/white-arrow.png' // Assuming you have an arrow image in the assets folder
 
 const Campus = () => {
   return (
@@ -16,7 +15,7 @@ const Campus = () => {
             <img src={gallery_3} alt=""/>
             <img src={gallery_4} alt=""/>
         </div>
-        <button className='campus-btn'>See more here <FontAwesomeIcon icon={faArrowRight}/></button>
+        <button className='btn'>See more here <img src={white_arrow}/></button>
     </div>
   );
 }

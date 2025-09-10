@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import './VideoPlayer.css';
-import videoFile from '../../assets/video.mp4'; // Replace with your video file path
+import videoFile from '../../assets/fitLife_video.mp4'; // Replace with your video file path
 
 const VideoPlayer = ({playState , setPlayState}) => {
 
