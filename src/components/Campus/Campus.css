@@ -12,11 +12,10 @@
 .gallery img{
     width: 23%;
     border-radius: 10px;
-    margin-left: 10px;
 }
 .campus-btn{
     margin-bottom: 40px; 
-    background-color: #2950ac; 
+    background-color: #1e2841; 
     border: none;
     color: #efefef;
     border-radius: 30px;
@@ -25,4 +24,14 @@
     cursor: pointer;
     outline: 0;
     display: inline-block;
+}
+/* ------- media query for responsiveness -------- */
+@media (max-width: 800px) {
+    .gallery{
+        flex-wrap: wrap;
+    }
+    .gallery img{
+        width: 45%;
+        margin-bottom: 25px;
+    }
 }

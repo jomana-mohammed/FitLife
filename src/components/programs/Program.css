@@ -40,3 +40,17 @@
     width: 100px;
     height: 100px;
 }
+
+/* ------- media query for responsiveness -------- */
+@media (max-width: 750px) {
+    .programs{
+        flex-direction: column;
+    }
+    .program{
+        flex-basis: 100%;
+        margin: 20px;
+    }
+    .program:last-child{
+        margin-bottom: 0;
+    }
+}

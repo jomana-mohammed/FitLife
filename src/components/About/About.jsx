@@ -3,14 +3,16 @@ import './About.css';
 import aboutImg from '../../assets/hero.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCirclePlay } from '@fortawesome/free-solid-svg-icons'
+import playIcon from '../../assets/play-icon.png'
 
 
-const About = () => {
+
+const About = ({setPlayState}) => {
     return (
         <div className='about'>
             <div className='about-left'>
                 <img src={aboutImg} alt="" className='about-img' />
-                <FontAwesomeIcon icon={faCirclePlay} className='play-icon' />
+                <img src={playIcon} className='play-icon' onClick={()=>{setPlayState(true)}} />
             </div>
             <div className='about-right'>
                 <h3>ABOUT UNIVERSITY</h3>
