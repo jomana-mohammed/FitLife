@@ -31,6 +31,9 @@
     list-style: none;
     width: 50%;
     padding: 20px;
+    background-color: aliceblue;
+    margin: 10px;
+    border-radius: 20px;
 }
 .slide{
     box-shadow: 0 0 20px rgba(0,0,0,0 .05);
@@ -54,6 +57,17 @@
 .user-info h3{
     color: #212EA0
 }
+
+.stars {
+  margin-top: 10px;
+  color: #fbc02d;
+  font-size: 18px;
+}
+
+.star {
+  margin-right: 3px;
+}
+
 /* ------- media query for responsiveness -------- */
 @media (max-width: 800px) {
     .testimonials{

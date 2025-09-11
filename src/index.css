@@ -6,8 +6,16 @@
   font-family: 'Roboto', sans-serif;
 }
 body {
-  background-color: #f5f5f5;
+  background: linear-gradient(
+    to bottom right,
+    #000000,   /* blue */
+    #091e4f,   /* dark blue */
+    #2e236d    /* dark purple */
+  );
+  min-height: 100vh; /* ensure it covers full page */
+  margin: 0;
 }
+
 
 a{
   text-decoration: none;

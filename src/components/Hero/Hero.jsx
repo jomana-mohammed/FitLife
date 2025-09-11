@@ -1,22 +1,47 @@
-import React from 'react'
-import './Hero.css'
-import '../Navbar/Navbar.css' 
-import arrorw from '../../assets/white-arrow.png' // Assuming you have an arrow image in the assets folder
+// 
+
+import React, { useState, useEffect } from "react";
+import "./Hero.css";
+import "../Navbar/Navbar.css";
+import arrorw from "../../assets/white-arrow.png";
+import { Link } from "react-scroll";
+import img1 from "../../assets/image.png";
+import img2 from "../../assets/image2.jpg";
+import img3 from "../../assets/image3.jpg";
 
 const Hero = () => {
+  const images = [img1, img2, img3];
+  const [current, setCurrent] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrent((prev) => (prev + 1) % images.length);
+    }, 7000);
+    return () => clearInterval(interval);
+  }, [images.length]);
+
   return (
-    <div className='hero container'>
-      <div className='hero-content'>
-        <h1>Transform Your Body, Transform Your Life</h1>
-        <p>
-          Join FitLife today and unlock your full potential with expert-led 
-          programs in Yoga, Cardio, Strength Training, and Nutrition. 
-          Your fitness journey starts here, stronger, healthier, and more confident than ever.
-        </p>
-        <button className='btn'>Get Started <img src={arrorw}/></button>
+    <div className="hero container">
+      {/* Background slideshow */}
+      {images.map((image, index) => (
+        <div
+          key={index}
+          className={`hero-bg ${index === current ? "active" : ""}`}
+          style={{ backgroundImage: `url(${image})` }}
+        />
+      ))}
+
+      <div className="hero-content">
+        <h1>Welcome to FitLife Gym</h1>
+        <p>Transform your body, mind, and lifestyle with us.</p>
+        <Link to="programs" smooth={true} duration={500}>
+          <button className="btn">
+            Get Started <img src={arrorw} alt="arrow" />
+          </button>
+        </Link>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;

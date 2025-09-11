@@ -23,9 +23,9 @@ const App = () => {
         <Title subTitle="Our Programs" title="Train Smarter, Get Stronger" />
         <Program/>
         <About setPlayState={setPlayState}/>
-        <Title subTitle="Gallery" title="Campus Photos"/>
+        <Title subTitle="Workout Gallery" title="Inside Our Fitness Studio" />
         <Campus/>
-        <Title subTitle="TESTIMONIALS" title="What Student Says"/>
+        <Title subTitle="Member Stories" title="What Our Athletes Say" />
         <Testimonials/>
         <Title subTitle="Contact Us" title="Get in Touch"/>
         <Contact/>

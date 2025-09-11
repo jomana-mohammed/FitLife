@@ -3,13 +3,17 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-top: 1px solid #797979;
+    border-top: 1px solid #e3dbdb;
     padding: 15px 0;
+}
+.footer p{
+    color: aliceblue;
 }
 .footer ul li {
     list-style: none;
     display: inline-block;
     margin-left: 20px;
+    color: aliceblue;
 }
 /* ------- media query for responsiveness -------- */
 @media (max-width: 600px) {

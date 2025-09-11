@@ -1,9 +1,9 @@
 import React from 'react';
 import './Campus.css';
-import gallery_1 from '../../assets/program.jpg';
-import gallery_2 from '../../assets/program.jpg';
-import gallery_3 from '../../assets/program.jpg';
-import gallery_4 from '../../assets/program.jpg';
+import gallery_1 from '../../assets/gallery_1.jpg';
+import gallery_2 from '../../assets/gallery_2.webp';
+import gallery_3 from '../../assets/gallery_3.jpg';
+import gallery_4 from '../../assets/gallery_4.jpeg';
 import white_arrow from '../../assets/white-arrow.png' // Assuming you have an arrow image in the assets folder
 
 const Campus = () => {
