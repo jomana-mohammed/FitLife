@@ -1,12 +1,87 @@
-# React + Vite
+# 🏋️‍♀️ FitLife – Transform Your Body, Mind & Lifestyle
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **FitLife**, a modern fitness web application built with **React + Vite**.
+FitLife is designed to **motivate, inspire, and guide users** through their fitness journey with an engaging UI and smooth interactions.
 
-Currently, two official plugins are available:
+![FitLife Banner](https://img.shields.io/badge/React-18-blue?style=for-the-badge\&logo=react)
+![Vite](https://img.shields.io/badge/Vite-Project-purple?style=for-the-badge\&logo=vite)
+![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✅ Modern **React + Vite** setup for fast development
+✅ Responsive design for all devices 📱💻
+✅ Smooth scrolling navigation 🌊
+✅ Motivational landing page 🎯
+✅ Easy to customize & expand 🚀
+
+---
+
+## 📸 Preview
+
+(Add screenshots or a short demo GIF of your site here for more visual impact)
+
+---
+
+## 🛠️ Tech Stack
+
+* ⚛ **React.js** – UI library
+* ⚡ **Vite** – Blazing fast build tool
+* 🎨 **CSS / Tailwind** (if used, mention) – Styling
+* 📦 **Node.js & npm** – Package manager
+
+---
+
+## 📂 Project Structure
+
+```
+FitLife/
+├── src/
+│   ├── components/   # Reusable UI components
+│   ├── assets/       # Images & static files
+│   ├── App.jsx       # Main App entry
+│   └── main.jsx      # React DOM entry
+├── public/           # Static public assets
+├── index.html        # Root HTML file
+└── package.json      # Project config
+```
+
+---
+
+## 🚀 Getting Started
+
+Follow these steps to run the project locally:
+
+```bash
+# Clone the repo
+git clone https://github.com/jomana-mohammed/FitLife.git
+
+# Navigate into the project folder
+cd FitLife
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+```
+
+The app will be running at 👉 `http://localhost:5173/`
+
+
+---
+
+## 👩‍💻 Author
+
+👤 **Jomana Mohammed**
+
+* GitHub: [@jomana-mohammed](https://github.com/jomana-mohammed)
+
+---
+
+## ⭐ Show Your Support
+
+If you like this project, don’t forget to **star ⭐ the repo** — it helps me stay motivated! 💪✨
+
