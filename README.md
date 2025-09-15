@@ -28,7 +28,7 @@ Live Demo : [https://fit-life.vercel.app/](https://fit-life-lac.vercel.app/)
 
 * ⚛ **React.js** – UI library
 * ⚡ **Vite** – Blazing fast build tool
-* 🎨 **CSS / Tailwind** (if used, mention) – Styling
+* 🎨 **CSS** – Styling
 * 📦 **Node.js & npm** – Package manager
 
 ---
