@@ -20,8 +20,7 @@ FitLife is designed to **motivate, inspire, and guide users** through their fitn
 ---
 
 ## 📸 Preview
-
-(Add screenshots or a short demo GIF of your site here for more visual impact)
+Live Demo : [https://fit-life.vercel.app/](https://fit-life-lac.vercel.app/)
 
 ---
 
